@@ -1,5 +1,6 @@
 
 mysql> use hasan;
+
 Reading table information for completion of table and column names
 You can turn off this feature to get a quicker startup with -A
 
