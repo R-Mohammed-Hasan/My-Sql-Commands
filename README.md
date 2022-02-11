@@ -231,3 +231,4 @@ mysql> select * from signUpDetails left join Logged_In_User on signUpDetails.Id=
 | Mohammed   | Hasan     | hasan@gmail.com | 2003-09-19 | Hasan    |    9876543210 | admin |  1 |    1 | hasan@gmail.com | admin |
 +------------+-----------+-----------------+------------+----------+---------------+-------+----+------+-----------------+-------+
 1 row in set (0.00 sec)
+mysql
