@@ -6,6 +6,7 @@ You can turn off this feature to get a quicker startup with -A
 
 Database changed
 mysql> desc signUpDetails;
+
 +---------------+-------------+------+-----+---------+----------------+
 | Field         | Type        | Null | Key | Default | Extra          |
 +---------------+-------------+------+-----+---------+----------------+
@@ -18,6 +19,7 @@ mysql> desc signUpDetails;
 | Role          | varchar(20) | NO   |     | NULL    |                |
 | Id            | int         | NO   | PRI | NULL    | auto_increment |
 +---------------+-------------+------+-----+---------+----------------+
+
 8 rows in set (0.00 sec)
 
 mysql> alter table signUpDetails modify column Mail varchar(20) Not Null;
